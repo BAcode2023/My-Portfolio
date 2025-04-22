@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title> Bobita's Portfolio</title>
+        <link rel="stylesheet" href="./assests/main.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <nav>
+            <a href="#" class="logo"><span>Bobita</span></a>
+            <ul class="links">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Services">Services</a>
+                <a href="#Contact">Contact</a>
+            </ul>
+            <i class='bx bx-menu-alt-right' id="menu"></i>
+            <a href="#Contact" class="btn">Contact Me</a>
+        </nav>
+        <section id="Home">
+            <img src="./assests/images/IMG_9380.jpg" alt="picture of me">
+            <div class="info-box">
+                <h1><span>Hello, I'm Bobita</span></h1>
+                <h3><span>Web Developer, Data Scientist, React Developer</span> based in Boston</h3>
+                <p> I'm a web, data, react, and python developer with a heavy focus on user-friendly applications.</p>
+            </div>
+        </section>
+        <section id="About">
+            <div class="about-box">
+                <div class="about-info">
+                    <h1><span>About Me</span></h1>
+                    <p>I enjoy building intuitive, user-friendly applications that make real impact on life Lately, I’ve been working on a Music AI Generator just for fun.
+                       I’m a curious person who likes learning new things—whether it's a programming language or something completely outside of tech. 
+                       I tend to pick things up quickly and enjoy figuring things out as I go. Outside of coding, I like traveling, meeting new people, and trying new experiences.    
+                    </p>
+                </div>
+                <h2><span>Skills</span></h2>
+                <div class="skills">
+                    <ul>
+                        <li><span><i class='bx bxl-html5' ></i>HTML</span></li>
+                        <li><span><i class='bx bxl-css3' ></i>CSS</span></li>
+                        <li><span><i class='bx bxl-javascript' ></i>JavaScript</span></li>
+                    </ul>
+                    <ul>
+                        <li><span><i class='bx bxl-react' ></i>React</span></li>
+                        <li><span><i class='bx bxl-python' ></i>Python</span></li>
+                        <li><span><i class='bx bxl-postgresql' ></i>SQL</span></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="./assests/images/1_wcEYa9AjnMZxXAau2iuhYw.png" alt="logos of different programs">
+        </section>
+
+        <!--Projects section-->
+        <section id="Projects">
+       
+            <h1 class="header"><span>Projects</span></h1>
+            <div class="projects-container">
+                <div class="box">
+                    <a href="https://serenitycentralofnewengland.com/"><h1><span>Serenity Central of New England</span></h1></a>
+                    <p>Coming soone</p>
+                    <img src="./assests/images/Screenshot 2025-04-22 174623.png" alt="Picture of the website for a yoga, spertual, meditation reatreat">
+                </div>
+                <div class="box">
+                    <h1><span>Artist Portfolio </span></h1>
+                    <p>Coming soon: Still working on it!</p>
+                    <img src="#" alt="Picture of portfoio of a graphic designer">
+                </div>
+            </div>
+       
+        </section>
+
+
+        <!--services section-->
+        <section id="Services">
+            <h1 class="header"><span>Services</span></h1>
+            <div class="services-container">
+                <div class="box">
+                    <h1><span>Websites</span></h1>
+                    <p>Coming soone</p>
+                    <img src="./assests/images/register-a-website.jpg" alt="website being programed">
+                </div>
+                <div class="box">
+                    <h1><span>Web & Desktop Apps</span></h1>
+                    <p>Coming soone</p>
+                    <img src="./assests/images/Banner.png" alt="website being programed">
+                </div>
+            </div>
+            <p>More on services and pricing, <a href="./assests/images/Services & Pricing (1).pdf">Click Here!</a></p>
+        </section>
+        <section id="Contact">
+            <h1 class="header"><span>Contact</span></h1>
+            <form method="POST" id="form">
+                <input type="hidden" name="access_key" value="5d32c0e8-b2f5-49f7-81ec-73af44778ad6">
+                <div class="input-box">
+                    <span>Full Name</span>
+                    <input type="text" name="name" placeholder="Enter Your Full Name">
+                </div>
+                <div class="input-box">
+                    <span>Your Email</span>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <div class="input-box">
+                    <span>Your Message</span>
+                    <textarea name="message" placeholder="Enter Your Message" required></textarea>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;" >
+                </div>
+               <button type="submit">Submit</button>
+                <div id="result"></div>
+            </form>
+        </section>
+
+        <footer>
+            <div class="col-left">
+                <div class="col-box">
+                <span><i class='bx bxs-envelope' ></i></span>
+                <span>atkinsbobita@gmail.com</span></div>
+               <div class="col-box">
+                    <div class="social-icons">
+                        <span><a href="https://github.com/BAcode2023"><i class='bx bxl-github' ></i></a></span>
+                        <span><a href="https://www.linkedin.com/in/bobita-atkins"><i class='bx bxl-linkedin-square' ></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <span>About My Services</span>
+                <p> website, Web/desktop apps, software applications</p>
+            </div>
+        </footer>
+
+
+        <script src="./assests/main.js"></script>
+    </body>
+</html>
