@@ -1,9 +1,9 @@
 const menu = document.querySelector("#menu");
-const nav = document.querySelector(".limks");
+const nav = document.querySelector(".links");
 
 menu.onclick = () => {
-    menu.classList.toggle("bx-x");
-    nav.classList.toggle("active");
+    menu.classList.toggle('bx-x');
+    nav.classList.toggle('active');
 }
 
 const form = document.getElementById('form');
